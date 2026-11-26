@@ -3,7 +3,7 @@ import { ArrowRight, BowlFood, Clock, List, MapPin, X } from '@phosphor-icons/re
 import { tr, trArr, trObjArr, type Lang } from './i18n'
 
 type FaqItem = { q: string; a: string }
-type MenuItem = { name: string; desc: string; price: string; cat: string; tag: string }
+type MenuItem = { name: string; desc: string; price: string; cat: string; tag: string; image: string }
 type Day = { d: string; h: string }
 
 function Tagline({ text }: { text: string }) {
@@ -32,6 +32,13 @@ function Tagline({ text }: { text: string }) {
     </p>
   )
 }
+
+const GALLERY_IMAGES = [
+  'https://images.pexels.com/photos/31071253/pexels-photo-31071253/free-photo-of-modern-restaurant-interior-with-wooden-ceiling-design.jpeg?cs=tinysrgb&dpr=1&w=500',
+  'https://images.pexels.com/photos/13871340/pexels-photo-13871340.jpeg?cs=tinysrgb&dpr=1&w=500',
+  'https://images.pexels.com/photos/39640990/pexels-photo-39640990/free-photo-of-chef-preparing-elegant-seafood-dinner-for-guests.jpeg?cs=tinysrgb&dpr=1&w=500',
+  'https://images.pexels.com/photos/4393017/pexels-photo-4393017.jpeg?cs=tinysrgb&dpr=1&w=500',
+]
 
 export default function App() {
   const [lang, setLang] = useState<Lang>(() => (localStorage.getItem('039-lang') === 'ar' ? 'ar' : 'en'))
@@ -128,6 +135,7 @@ export default function App() {
           <div className="mt-12 space-y-4">
             {shown.map((m) => (
               <article key={m.name} className="rounded-2xl border border-[#e3d9c8] bg-white p-6 flex flex-wrap items-start justify-between gap-4">
+                <img src={m.image} alt={m.name} loading="lazy" className="h-20 w-20 shrink-0 rounded-xl object-cover" />
                 <div className="min-w-[200px] flex-1">
                   <h3 className="title-1">{m.name} {m.tag && <span className="caption-4 bg-[#eef2e8] text-[#1f3d2b] rounded-full px-3 py-1 ms-2">{m.tag}</span>}</h3>
                   <p className="body-6 text-[#555555] mt-2">{m.desc}</p>
@@ -142,8 +150,9 @@ export default function App() {
           <h2 className="heading-3 text-center">{t('gallery.title')}</h2>
           <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mt-12">
             {galleryItems.map((g, i) => (
-              <div key={g} className={`rounded-2xl flex items-end p-4 ${i % 2 === 0 ? 'aspect-[3/4]' : 'aspect-square mt-8'}`} style={{ backgroundColor: ['#e8dcc4', '#d9c9a8', '#c9b48a', '#e3d9c8'][i % 4] }}>
-                <span className="caption-4 bg-white/90 rounded-lg px-3 py-2">{g}</span>
+              <div key={g} className={`relative overflow-hidden rounded-2xl flex items-end p-4 ${i % 2 === 0 ? 'aspect-[3/4]' : 'aspect-square mt-8'}`}>
+                <img src={GALLERY_IMAGES[i % GALLERY_IMAGES.length]} alt={g} loading="lazy" className="absolute inset-0 h-full w-full object-cover" />
+                <span className="caption-4 relative bg-white/90 rounded-lg px-3 py-2">{g}</span>
               </div>
             ))}
           </div>

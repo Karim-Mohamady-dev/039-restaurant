@@ -1,1 +1,216 @@
-{"cookie":{"accept":"Accept","decline":"Decline","text":"We use a single preference cookie to remember your language choice."},"faq":{"items":[{"a":"Yes. The dining room seats 48 guests. For larger groups, call the restaurant and we plan the table together.","q":"Can you seat a large group?"},{"a":"Yes. The menu marks vegetarian and gluten free dishes, and the kitchen can adapt most mains with notice.","q":"Do you have vegetarian options?"},{"a":"Children are welcome. A smaller menu is available for guests under 12.","q":"Are children welcome?"},{"a":"Yes. The terrace seats 20 guests in warm weather and is covered when it rains.","q":"Is there outdoor seating?"},{"a":"Yes, for parties of 8 or more, and for the terrace. Smaller tables are usually available without a booking.","q":"Do I need to book?"},{"a":"Yes, a private room seats up to 14 guests. Ask when you book.","q":"Can I book a private room?"}],"title":"Questions, answered"},"final":{"cta":"Book a table","title":"Hungry already? The table is waiting."},"footer":{"note":"Saffron Table is a demo restaurant site. Dishes and prices are illustrative.","privacy":"Privacy policy","privacyText":"Demo privacy policy. Reservation requests are kept only in your browser session for this demo.","terms":"Terms","termsText":"Demo terms. Menu prices are placeholders and are confirmed by the restaurant."},"gallery":{"items":["The dining room","The terrace","The kitchen","Dessert, plated"],"title":"The room and the table"},"hero":{"cta":"Book a table","eyebrow":"Restaurant","proof":"Seasonal menu, cooked to order","secondary":"See the menu","sub":"Saffron Table cooks seasonal dishes in a warm dining room, with bread baked in house and a short menu that changes with the market.","title":"Seasonal cooking, served slowly"},"hours":{"address":"12 Garden Lane, Old Town","days":[{"d":"Monday to Thursday","h":"12:00 to 22:00"},{"d":"Friday and Saturday","h":"12:00 to 23:00"},{"d":"Sunday","h":"12:00 to 21:00"}],"title":"Find us and opening hours"},"menu":{"categories":["Starters","Mains","Desserts","Drinks"],"items":[{"cat":"Starters","desc":"Warm bread, olive oil, and sea salt.","name":"House bread","price":"{{price-bread}}","tag":"Vegetarian"},{"cat":"Starters","desc":"Slow roasted tomatoes, basil, and soft cheese.","name":"Roast tomato soup","price":"{{price-soup}}","tag":"Vegetarian"},{"cat":"Mains","desc":"Charred aubergine, grains, herbs, and yoghurt.","name":"Aubergine and grains","price":"{{price-aubergine}}","tag":"Vegetarian"},{"cat":"Mains","desc":"Grilled fish of the day, lemon, and green herbs.","name":"Fish of the day","price":"{{price-fish}}","tag":""},{"cat":"Mains","desc":"Slow cooked lamb, saffron rice, and pickled onion.","name":"Saffron lamb","price":"{{price-lamb}}","tag":""},{"cat":"Desserts","desc":"Orange, almond, and cream.","name":"Orange almond cake","price":"{{price-cake}}","tag":"Vegetarian"},{"cat":"Desserts","desc":"Dark chocolate, olive oil, and sea salt.","name":"Chocolate pot","price":"{{price-chocolate}}","tag":"Vegetarian"},{"cat":"Drinks","desc":"Mint, lemon, and sparkling water.","name":"Mint cooler","price":"{{price-cooler}}","tag":""},{"cat":"Drinks","desc":"House red and white by the glass.","name":"House wine","price":"{{price-wine}}","tag":""}],"note":"Prices are placeholders. Ask the restaurant for the current menu.","sub":"A short menu, cooked to order. Choose a course to see the dishes.","title":"The menu"},"nav":{"faq":"FAQ","gallery":"Gallery","lang":"العربية","menu":"Menu","reserve":"Reserve","visit":"Visit"},"notfound":"Page not found","reservation":{"date":"Date","email":"Email","errors":{"date":"Please choose a date in the future.","email":"Please enter a valid email address.","name":"Please enter your name.","party":"Please choose a party size."},"guests":"Guests","name":"Your name","partyOptions":["1","2","3","4","5","6","7","8+"],"sub":"Tell us the date and the party size and we confirm within one working day.","submit":"Request a table","success":"Thanks. Your reservation request was received. We confirm within one working day.","time":"Time","times":["12:00","13:00","18:00","19:00","20:00","21:00"],"title":"Reserve a table"},"story":{"sub":"Saffron Table opened in 2019 in a former bakery. The kitchen still bakes its own bread each morning, buys from the market down the road, and writes the menu each week around what is fresh. Nothing on the menu stays because it is popular; it stays because it is good that week.","title":"A former bakery, still baking"},"tagline":"Cooking that respects the season, the market, and the time it takes to do a dish properly."}
+{
+ "cookie": {
+  "accept": "Accept",
+  "decline": "Decline",
+  "text": "We use a single preference cookie to remember your language choice."
+ },
+ "faq": {
+  "items": [
+   {
+    "a": "Yes. The dining room seats 48 guests. For larger groups, call the restaurant and we plan the table together.",
+    "q": "Can you seat a large group?"
+   },
+   {
+    "a": "Yes. The menu marks vegetarian and gluten free dishes, and the kitchen can adapt most mains with notice.",
+    "q": "Do you have vegetarian options?"
+   },
+   {
+    "a": "Children are welcome. A smaller menu is available for guests under 12.",
+    "q": "Are children welcome?"
+   },
+   {
+    "a": "Yes. The terrace seats 20 guests in warm weather and is covered when it rains.",
+    "q": "Is there outdoor seating?"
+   },
+   {
+    "a": "Yes, for parties of 8 or more, and for the terrace. Smaller tables are usually available without a booking.",
+    "q": "Do I need to book?"
+   },
+   {
+    "a": "Yes, a private room seats up to 14 guests. Ask when you book.",
+    "q": "Can I book a private room?"
+   }
+  ],
+  "title": "Questions, answered"
+ },
+ "final": {
+  "cta": "Book a table",
+  "title": "Hungry already? The table is waiting."
+ },
+ "footer": {
+  "note": "Saffron Table is a demo restaurant site. Dishes and prices are illustrative.",
+  "privacy": "Privacy policy",
+  "privacyText": "Demo privacy policy. Reservation requests are kept only in your browser session for this demo.",
+  "terms": "Terms",
+  "termsText": "Demo terms. Menu prices are placeholders and are confirmed by the restaurant."
+ },
+ "gallery": {
+  "items": [
+   "The dining room",
+   "The terrace",
+   "The kitchen",
+   "Dessert, plated"
+  ],
+  "title": "The room and the table"
+ },
+ "hero": {
+  "cta": "Book a table",
+  "eyebrow": "Restaurant",
+  "proof": "Seasonal menu, cooked to order",
+  "secondary": "See the menu",
+  "sub": "Saffron Table cooks seasonal dishes in a warm dining room, with bread baked in house and a short menu that changes with the market.",
+  "title": "Seasonal cooking, served slowly"
+ },
+ "hours": {
+  "address": "12 Garden Lane, Old Town",
+  "days": [
+   {
+    "d": "Monday to Thursday",
+    "h": "12:00 to 22:00"
+   },
+   {
+    "d": "Friday and Saturday",
+    "h": "12:00 to 23:00"
+   },
+   {
+    "d": "Sunday",
+    "h": "12:00 to 21:00"
+   }
+  ],
+  "title": "Find us and opening hours"
+ },
+ "menu": {
+  "categories": [
+   "Starters",
+   "Mains",
+   "Desserts",
+   "Drinks"
+  ],
+  "items": [
+   {
+    "cat": "Starters",
+    "desc": "Warm bread, olive oil, and sea salt.",
+    "name": "House bread",
+    "price": "EGP 45",
+    "tag": "Vegetarian",
+    "image": "https://images.pexels.com/photos/28241679/pexels-photo-28241679/free-photo-of-bread-food-wood-dinner.jpeg?cs=tinysrgb&dpr=1&w=500"
+   },
+   {
+    "cat": "Starters",
+    "desc": "Slow roasted tomatoes, basil, and soft cheese.",
+    "name": "Roast tomato soup",
+    "price": "EGP 95",
+    "tag": "Vegetarian",
+    "image": "https://images.pexels.com/photos/27950501/pexels-photo-27950501/free-photo-of-a-plate-with-soup-and-a-flower-on-it.jpeg?cs=tinysrgb&dpr=1&w=500"
+   },
+   {
+    "cat": "Mains",
+    "desc": "Charred aubergine, grains, herbs, and yoghurt.",
+    "name": "Aubergine and grains",
+    "price": "EGP 180",
+    "tag": "Vegetarian",
+    "image": "https://images.pexels.com/photos/27774175/pexels-photo-27774175/free-photo-of-a-white-plate-with-a-dish-of-food-on-it.jpeg?cs=tinysrgb&dpr=1&w=500"
+   },
+   {
+    "cat": "Mains",
+    "desc": "Grilled fish of the day, lemon, and green herbs.",
+    "name": "Fish of the day",
+    "price": "EGP 320",
+    "tag": "",
+    "image": "https://images.pexels.com/photos/15671371/pexels-photo-15671371/free-photo-of-seafood-on-plate.jpeg?cs=tinysrgb&dpr=1&w=500"
+   },
+   {
+    "cat": "Mains",
+    "desc": "Slow cooked lamb, saffron rice, and pickled onion.",
+    "name": "Saffron lamb",
+    "price": "EGP 380",
+    "tag": "",
+    "image": "https://images.pexels.com/photos/28705621/pexels-photo-28705621/free-photo-of-gourmet-fine-dining-plate-with-sauce-and-herbs.jpeg?cs=tinysrgb&dpr=1&w=500"
+   },
+   {
+    "cat": "Desserts",
+    "desc": "Orange, almond, and cream.",
+    "name": "Orange almond cake",
+    "price": "EGP 120",
+    "tag": "Vegetarian",
+    "image": "https://images.pexels.com/photos/34520947/pexels-photo-34520947/free-photo-of-delectable-brazilian-dessert-on-modern-plate.jpeg?cs=tinysrgb&dpr=1&w=500"
+   },
+   {
+    "cat": "Desserts",
+    "desc": "Dark chocolate, olive oil, and sea salt.",
+    "name": "Chocolate pot",
+    "price": "EGP 110",
+    "tag": "Vegetarian",
+    "image": "https://images.pexels.com/photos/34520959/pexels-photo-34520959/free-photo-of-minimalist-gourmet-plate-with-pastry-and-sauce.jpeg?cs=tinysrgb&dpr=1&w=500"
+   },
+   {
+    "cat": "Drinks",
+    "desc": "Mint, lemon, and sparkling water.",
+    "name": "Mint cooler",
+    "price": "EGP 65",
+    "tag": "",
+    "image": "https://images.pexels.com/photos/36325929/pexels-photo-36325929/free-photo-of-assorted-traditional-middle-eastern-iftar-meal.jpeg?cs=tinysrgb&dpr=1&w=500"
+   },
+   {
+    "cat": "Drinks",
+    "desc": "House red and white by the glass.",
+    "name": "House wine",
+    "price": "EGP 150",
+    "tag": "",
+    "image": "https://images.pexels.com/photos/7627408/pexels-photo-7627408.jpeg?cs=tinysrgb&dpr=1&w=500"
+   }
+  ],
+  "note": "Demo pricing \u2014 prices shown are for demonstration. Ask the restaurant for the current menu.",
+  "sub": "A short menu, cooked to order. Choose a course to see the dishes.",
+  "title": "The menu"
+ },
+ "nav": {
+  "faq": "FAQ",
+  "gallery": "Gallery",
+  "lang": "العربية",
+  "menu": "Menu",
+  "reserve": "Reserve",
+  "visit": "Visit"
+ },
+ "notfound": "Page not found",
+ "reservation": {
+  "date": "Date",
+  "email": "Email",
+  "errors": {
+   "date": "Please choose a date in the future.",
+   "email": "Please enter a valid email address.",
+   "name": "Please enter your name.",
+   "party": "Please choose a party size."
+  },
+  "guests": "Guests",
+  "name": "Your name",
+  "partyOptions": [
+   "1",
+   "2",
+   "3",
+   "4",
+   "5",
+   "6",
+   "7",
+   "8+"
+  ],
+  "sub": "Tell us the date and the party size and we confirm within one working day.",
+  "submit": "Request a table",
+  "success": "Thanks. Your reservation request was received. We confirm within one working day.",
+  "time": "Time",
+  "times": [
+   "12:00",
+   "13:00",
+   "18:00",
+   "19:00",
+   "20:00",
+   "21:00"
+  ],
+  "title": "Reserve a table"
+ },
+ "story": {
+  "sub": "Saffron Table opened in 2019 in a former bakery. The kitchen still bakes its own bread each morning, buys from the market down the road, and writes the menu each week around what is fresh. Nothing on the menu stays because it is popular; it stays because it is good that week.",
+  "title": "A former bakery, still baking"
+ },
+ "tagline": "Cooking that respects the season, the market, and the time it takes to do a dish properly."
+}
